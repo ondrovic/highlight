@@ -112,7 +112,12 @@ pre.code .fnc,
 pre.code .fnc span { 
 	color: #00b; 
 }
-
+/* SQL */
+.sql pre.code .op,
+.sql pre.code .op span {
+	color: #008;
+	font-weight: bold;
+}
 /* css */
 .css pre.code .kwd,
 .css pre.code .kwd span { 
